@@ -80,8 +80,9 @@ header {
 }
 
 main {
-
     grid-column: 2;
+    margin-bottom: 1em;
+    display: block;
 }
 
 footer {
@@ -89,7 +90,11 @@ footer {
     text-align: center;
     grid-column: 2;
 }
-
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .T {
     color: silver;
     letter-spacing: 0.05em;
@@ -102,6 +107,7 @@ h5 {
 }
 .text-center{
     text-align: center;
+    padding: 20px 20px;
 }
 .justify-content-center{
     display: flex;
@@ -114,6 +120,12 @@ h5 {
     0 4px 4px 0 rgba(0, 0, 0, 0.2), 
     0 6px 6px 0 rgba(0, 0, 0, 0.19);
     padding: 30px;
+}
+.purple{
+    color:rgb(80, 19, 88);
+    box-shadow:
+    0 4px 4px 0 rgba(80, 19, 88, 0.5), 
+    0 6px 6px 0 rgba(80, 19, 88, 0.5);
 }
 
 @media (min-width: 768px) {
