@@ -79,11 +79,13 @@ body {
     max-width: 100%;
     height: auto;
 }
-.vertCenter{
+.logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    /* padding-left: 2em;
+    padding-right: 3em; */
+    padding-right: min(3em, 5%);
 }
 
 main {
@@ -95,11 +97,11 @@ main {
 .title{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 h1{
-    font-size: clamp(1.8rem, calc(7vw + 1rem), 3rem);
+    font-size: clamp(1.5rem, calc(2vw + 1rem), 2rem);
 }
 
 .text-center{
